@@ -1,8 +1,15 @@
 # MP3_Converter
-Convert any Video To MP3 File <br/>
+Convert any Video To MP3 File
+
+
+
+
+![MP3 Converter](https://github.com/brahmihub/MP3_Converter/assets/151893249/bdc2c9ec-3370-4414-bb61-67ac93788f97)
+
+
 <h2>Demo:</h2>
 
-![MP3 Converter](https://github.com/brahmihub/MP3_Converter/raw/main/assets/151893249/4dc0d528-2eea-4627-882f-cf42f7534365.gif)
+
 
 <h2>Requirements:</h2>
 ```plaintext
