@@ -265,6 +265,50 @@ QPushButton:pressed {
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QPushButton" name="play">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>260</y>
+      <width>601</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover {
+    background-color:transparent;
+    color: rgb(85, 0, 127);
+	border-radius: 10px;
+	border: 3px solid rgb(85, 0, 127);
+}
+QPushButton {
+    background-color:transparent;
+	font: 72pt &quot;Niagara Solid&quot;;
+	border-radius: 10px;
+	border: 3px solid black;
+}
+QPushButton:pressed {
+   
+    border: 3px solid lightblue;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>sources/play.png</normaloff>sources/play.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
