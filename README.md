@@ -8,6 +8,9 @@ Convert any video to MP3 file using this simple Python application.
 
 - PyQt5==5.15.5
 - yt-dlp==2021.6.6
+- pytube==10.7.2
+- pydub==0.25.1
+- simpleaudio==1.0.4
 
 ### FFMPEG Binaries:
 
@@ -30,10 +33,6 @@ pip install PyQt5==5.15.5 yt-dlp==2021.6.6
 
 4. Run the MP3 Converter application.
 
-## Screenshots:
-
-![Screenshot 1](<URL_TO_SCREENSHOT_1>)
-<!-- Add other screenshots if needed -->
 
 ## License:
 
