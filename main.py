@@ -120,7 +120,7 @@ def current_path():
     QMessageBox.information(windows,"Information",f"Current Saving Path is: {ch}")
     f.close()
 app = QApplication([])
-windows = loadUi("C:/Users/brahm/OneDrive/Desktop/youtube to mp3/interface.ui")
+windows = loadUi("interface.ui")
 windows.show()
 windows.convert.clicked.connect(convert_click)
 windows.search.clicked.connect(search_click)

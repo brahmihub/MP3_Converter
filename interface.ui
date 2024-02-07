@@ -138,6 +138,10 @@ QPushButton:pressed {
       <height>301</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">	border-radius: 10px;
+	border: 5px solid black;</string>
+    </property>
     <property name="text">
      <string/>
     </property>
@@ -148,7 +152,7 @@ QPushButton:pressed {
       <x>-10</x>
       <y>200</y>
       <width>1091</width>
-      <height>61</height>
+      <height>51</height>
      </rect>
     </property>
     <property name="font">
