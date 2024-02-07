@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1090</width>
+    <height>705</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>1</pointsize>
+   </font>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::ClickFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(137, 2, 255);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>-20</y>
+      <width>1011</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Monotype Corsiva</family>
+      <pointsize>100</pointsize>
+      <weight>50</weight>
+      <italic>true</italic>
+      <bold>false</bold>
+      <underline>true</underline>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: italic 100pt &quot;Monotype Corsiva&quot;;
+text-decoration: underline;</string>
+    </property>
+    <property name="text">
+     <string>MP3 Converter</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="link">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>100</y>
+      <width>891</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>18</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;MV Boli&quot;;
+border: 3px solid black;
+border-radius: 10px;
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Link or Song Name</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="convert">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>570</y>
+      <width>331</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Niagara Solid</family>
+      <pointsize>72</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover {
+    background-color: black;
+    color: rgb(85, 0, 127);
+	border-radius: 10px;
+	border: 3px solid rgb(85, 0, 127);
+}
+QPushButton {
+    background-color: rgb(85, 0, 127);
+	font: 72pt &quot;Niagara Solid&quot;;
+	border-radius: 10px;
+	border: 3px solid black;
+}
+QPushButton:pressed {
+   
+    border: 3px solid lightblue;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Convert</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="song_image">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>260</y>
+      <width>601</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="song_name">
+    <property name="geometry">
+     <rect>
+      <x>-10</x>
+      <y>200</y>
+      <width>1091</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>MV Boli</family>
+      <pointsize>25</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25pt &quot;MV Boli&quot;;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="search">
+    <property name="geometry">
+     <rect>
+      <x>904</x>
+      <y>100</y>
+      <width>181</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Niagara Solid</family>
+      <pointsize>72</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover {
+    background-color: black;
+    color: rgb(85, 0, 127);
+	border-radius: 10px;
+	border: 3px solid rgb(85, 0, 127);
+}
+QPushButton {
+    background-color: rgb(85, 0, 127);
+	font: 72pt &quot;Niagara Solid&quot;;
+	border-radius: 10px;
+	border: 3px solid black;
+}
+QPushButton:pressed {
+   
+    border: 3px solid lightblue;
+}
+
+
+</string>
+    </property>
+    <property name="text">
+     <string>Search</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>531</y>
+      <width>111</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>sources/pic1.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>-22</x>
+      <y>520</y>
+      <width>171</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>sources/pic2.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1090</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionChange_Saving_Path"/>
+    <addaction name="actionCurrent_Saving_Path"/>
+   </widget>
+   <addaction name="menuSettings"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionChange_Saving_Path">
+   <property name="text">
+    <string>Change Saving Path</string>
+   </property>
+  </action>
+  <action name="actionCurrent_Saving_Path">
+   <property name="text">
+    <string>Current Saving Path</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
